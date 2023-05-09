@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+</head>
+<body>
+   <form>
+    <ul>
+        <li>
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="Enter your full name">
+        </li>
+        <li>
+            <label for="Email">Email</label>
+            <input type="email" name="mail" id="email" placeholder="example@email.com">
+        </li>
+        <li>
+            <label for="phone">Mobile Number</label>
+            <input type="tel" name="phone" id="phone">
+        </li>
+        <li>
+            <label for="pwd">Password</label>
+            <input type="password" name="password" id="pwd" placeholder="password must be a word with a capital letter, number and a symbol such as @ or S">
+        </li>
+        <li>
+            <label for="Address">Address</label>
+            <textarea name="Address" id="Address" cols="30" rows="10"></textarea>
+        </li>
+        <li>
+            <label for="dob">Date of Birth</label>
+            <input type="date" name="dob" id="dob">
+        </li>
+        <li>
+            <p>Gender</p>
+            <input type="radio" name="gender" id="male">
+            <label for="male">Male</label>
+            
+            <input type="radio" name="gender" id="female" checked>
+            <label for="female">Female</label>
+        </li>
+        <li>
+            <label for="county">County</label>
+            <select>
+                <optgroup label="Africa">
+                    <option value="NG">Nigeria</option>
+                    <option value="TG">Togo</option>
+                    <option value="SA">South Africa</option>
+                    <option value="AL">Algeria</option>
+                </optgroup>
+                <optgroup label="Asia">
+                    <option value="SG">Singapore</option>
+                    <option value="CH">China</option>
+                    <option value="SK">South Korea</option>
+                    <option value="NK">North Korea</option>
+                </optgroup>
+                <optgroup label="Europe">
+                    <option value="GB">Great Britain</option>
+                    <option value="FR">France</option>
+                    <option value="GR">Germany</option>
+                    <option value="NR">Norway</option>
+                </optgroup>
+                <optgroup label="Americas">
+                    <option value="USA">United States</option>
+                    <option value="MX">Mexico</option>
+                    <option value="ECU">Ecuador</option>
+                    <option value="BR">Brazil</option>
+                </optgroup>
+            </select>
+        </li>
+        <li>
+            <label for="Geopolitical Zones">Geopolitical Zones</label>
+            <select>
+                <optgroup label="South West">
+                   <option value="LG">Lagos</option>
+                   <option value="OG">Ogun</option>
+                </optgroup>
+                <optgroup label="South East">
+                    <option value="AB">Abia</option>
+                    <option value="EN">Enugu</option>
+                </optgroup>
+                <optgroup label="South South">
+                    <option value="BY">Bayelsa</option>
+                    <option value="RV">Rivers</option>
+                </optgroup>
+                <optgroup label="North West">
+                    <option value="JG">Jigawa</option>
+                    <option value="KD">Kaduna</option>
+                </optgroup>
+                <optgroup label="North East">
+                    <option value="AD">Adamawa</option>
+                    <option value="BC">Bauchi</option>
+                </optgroup>
+                <optgroup label="North Central">
+                    <option value="NS">Nassarawa</option>
+                    <option value="BN">Benue</option>
+                </optgroup>
+            </select>
+        </li>
+    </ul>
+   </form>
+</body>
+</html>
